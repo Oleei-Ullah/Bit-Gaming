@@ -553,6 +553,75 @@ cursor: pointer;
 
 
 
+footer {
+    padding: 80px 0;
+    background: #0B0223;
+}
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo-footer {
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.logo-footer p{
+    color: white
+}
+
+.footer-menu {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+}
+
+.footer-menu p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 5px 0;
+
+}
+
+.footer-menu2 {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+}
+
+.footer-menu2 p {
+    color: #534C64;
+    font-size: 14px !important;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+
+.footer-icon {
+    padding: 10px 0;
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-menu i {
+    color: white;
+    font-size: 20px;
+}
+
+.copryright {
+    padding-top: 20px;
+
+}
+
+
 
 
 /* mobile device's css */
@@ -660,6 +729,12 @@ cursor: pointer;
 
     #career {
         padding: 20px 0;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
     }
 
 
