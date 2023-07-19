@@ -41,6 +41,14 @@ p {
     justify-content: center;
 }
 
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
 
 .grid {
     display: grid;
@@ -493,6 +501,57 @@ cursor: pointer;
 }
 
 
+/* career section */
+
+#career {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.career-content {
+    padding-right: 30px;
+}
+
+.career-content h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 8px 0;
+}
+
+.career-content p {
+    color: #fff;
+    padding: 8px 0;
+}
+
+.career-content ul {
+    padding: 20px 0;
+}
+
+.career-content ul li {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.career-grid {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.career-btn {
+    background: #ffffff;
+    color: #f3248f;
+}
+
+.career-image {
+    width: 100%;
+    margin-left: 12%;
+}
+
+.career-image img {
+    width: 100%;
+}
+
+
 
 
 
@@ -593,6 +652,17 @@ cursor: pointer;
         justify-content: center;
     }
 
+    .career-image {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    #career {
+        padding: 20px 0;
+    }
+
+
 }
 
 /* tablet devices's css */
@@ -681,5 +751,15 @@ cursor: pointer;
 
     .justify-right {
         justify-content: center;
+    }
+
+    .career-image {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    #career {
+        padding: 20px 0;
     }
 }
