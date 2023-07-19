@@ -386,12 +386,13 @@ cursor: pointer;
 
 .watch i {
     color: white;
+    padding: 5px;
     font-size: 60px;
     cursor: pointer;
 }
 
 .watch-now {
-    color: White;
+    color: #F948B2;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
