@@ -37,6 +37,9 @@ p {
     display: flex;
     align-items: center;
 }
+.justify-right {
+    justify-content: center;
+}
 
 
 .grid {
@@ -392,6 +395,107 @@ cursor: pointer;
 .video-img:hover .watch{
     display: blcok;
 }
+
+/* instant play section */
+.intant-play {
+    padding: 50px 20px;
+}
+
+.instant-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instant-content-box {
+    width: 50%;
+    text-align: right;
+}
+
+.instant-content-box h2 {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #534C64;
+}
+
+.instant-content-box h2 span {
+    color: #f3248f;
+}
+
+.instant-content-box p {
+    padding: 10px 0;
+}
+.instant-images {
+    width: 50%;
+    position: relative;
+}
+
+.instant-img1 img {
+    width: 100%;
+}
+.instant-img2 {
+    position: absolute;
+    bottom: -15%;
+    left : -20%;
+}
+.instant-img2 img {
+    width: 50%;
+}
+
+
+/* play content images */
+
+
+.play-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.play-content-box {
+    width: 50%;
+    text-align: left;
+}
+
+.play-content-box h2 {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #534C64;
+}
+
+.play-content-box h2 span {
+    color: #f3248f;
+}
+
+.play-content-box p {
+    padding: 10px 0;
+}
+.play-images {
+    width: 50%;
+    position: relative;
+}
+
+.play-img1 img {
+    width: 100%;
+}
+.play-img2 {
+    position: absolute;
+    bottom: -20%;
+    right: -20%;
+    text-align: right;
+}
+.play-img2 img {
+    width: 50%;
+}
+
+
+
+
+
 /* mobile device's css */
 
 @media screen and (max-width:576px){
@@ -451,6 +555,44 @@ cursor: pointer;
     .g-types2 {
         grid-template-columns: repeat(2, 1fr);
     }
+    .instant-content {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .instant-content-box {
+        text-align: center;
+    }
+
+    .instant-images {
+        width: 70%;
+    }
+
+
+
+    .play-content {
+        justify-content: center;
+        padding-bottom: 20px;
+        order: 1;
+    }
+
+    .order-2 {
+        order: 2;
+    }
+
+    .play-content-box {
+        text-align: center;
+    }
+
+    .play-images {
+        width: 70%;
+    }
+
+
+    .justify-right {
+        justify-content: center;
+    }
+
 }
 
 /* tablet devices's css */
@@ -503,5 +645,41 @@ cursor: pointer;
 
     .g-types2 {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .instant-content {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .instant-content-box {
+        text-align: center;
+    }
+
+    .instant-images {
+        width: 70%;
+    }
+
+
+    .play-content {
+        justify-content: center;
+        padding-bottom: 20px;
+        order: 1;
+    }
+
+    .order-2 {
+        order: 2;
+    }
+
+    .play-content-box {
+        text-align: center;
+    }
+
+    .play-images {
+        width: 70%;
+    }
+
+    .justify-right {
+        justify-content: center;
     }
 }
