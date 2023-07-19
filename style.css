@@ -102,6 +102,12 @@ p {
 
 /* ================ */
 
+nav {
+    box-shadow: 5px 4px 16px -7px rgba(15,1,1,0.87);
+-webkit-box-shadow: 5px 4px 16px -7px rgba(15,1,1,0.87);
+-moz-box-shadow: 5px 4px 16px -7px rgba(15,1,1,0.87);
+}
+
 .navbar {
     padding: 10px 0;
     justify-content: space-between;
