@@ -252,6 +252,21 @@ cursor: pointer;
     margin-bottom: 10px;
 }
 
+.gamer-purpose {
+    padding: 10px 0;
+}
+
+.gamer-purpose p{
+    padding: 0;
+
+}
+
+.gamer-purpose q span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #534C64;
+}
+
 /* game types css */
 #game-types {
     padding: 50px 0;
