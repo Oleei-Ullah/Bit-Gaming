@@ -381,6 +381,7 @@ cursor: pointer;
     align-items: center;
     border-radius: 10px;
     background-color: #191015b1;
+    border: 2px solid #f3248f;
 }
 
 .watch i {
