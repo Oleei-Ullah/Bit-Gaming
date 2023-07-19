@@ -591,7 +591,7 @@ footer {
     font-weight: 400;
     text-transform: capitalize;
     padding: 5px 0;
-
+    cursor: pointer;
 }
 
 .footer-menu2 {
@@ -605,10 +605,12 @@ footer {
     font-size: 14px !important;
     text-transform: capitalize;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 .footer-icon {
     padding: 10px 0;
+    cursor: pointer;
 }
 
 .icon-menu {
